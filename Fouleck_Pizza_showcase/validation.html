@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Fouleck Pizza</title>
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/validationStyle.css">
+        <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="assets/img/logoHead.png">
+    </head>
+    <body>
+        <header>
+            <section id="top">
+                <a id="titre" href="index.html"><img src="assets/img/logo.png" alt="Logo" width=100><h1>Fouleck Pizza &</h1></a>
+                <form id="search" action="pizzas.html">
+                    <input type="text" placeholder="Quelle pizza mon fouleck ?" />
+                    <a href="pizzas.html"><i class="fa fa-search" aria-hidden="true"></i></a>
+                </form>
+                <aside id="user">
+                    <form action="enDeveloppement.html">
+                        <label for="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></label>
+                            <input class="text" id="email" type="email" placeholder="E-mail">
+                        <label for="password"><i class="fa fa-unlock-alt" aria-hidden="true"></i></label>
+                            <input class="text" id="password" type="password" placeholder="Mot de Passe">
+                        <a href="enDeveloppement.html" class="button">Connexion</a>
+                    </form>
+                    <a href="enDeveloppement.html" id="connect"><i class="fa fa-user-circle-o fa-5x" aria-hidden="true"></i></a>
+                    <a href="panier.html"><span>3</span><i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i></a>
+                </aside>
+            </section>
+            <nav>
+                <ul>
+                    <li class="text">|</li>
+                    <li class="text"><a href="pizzas.html">Pizzas</a></li>
+                    <li class="icon"><a href="pizzas.html"><img src="assets/img/pizzas.ico" alt="Pizzas" width=40 /></a></li>
+                    <li class="text">|</li>
+                    <li class="text"><a href="configo.html">ConfigoFouleck</a></li>
+                    <li class="icon"><a href="configo.html"><img src="assets/img/configoFouleck.png" alt="ConfigoFouleck" width=40 /></a></li>
+                    <li class="text">|</li>
+                    <li class="text"><a href="pizzas.html">Sandwichs</a></li>
+                    <li class="icon"><a href="pizzas.html"><img src="assets/img/sandwichs.png" alt="Sandwichs" width=40 /></a></li>
+                    <li class="text">|</li>
+                    <li class="text"><a href="pizzas.html">Boissons</a></li>
+                    <li class="icon"><a href="pizzas.html"><img src="assets/img/boissons.png" alt="Boissons" width=40 /></a></li>
+                    <li class="text">|</li>
+                </ul>
+            </nav>
+        </header>
+        <div id="corps">
+            <section class="texte" id="head">
+                <h2>Validation de commande</h2>
+                <h4 class="petit">(t'es un vrai petit <strong>Fouleck</strong> toi)</h4>
+            </section>
+            <section id="invité">
+                <h3 class="texte">Tu n'es pas encore client mais futur <strong>Fouleck</strong></h3>
+                <div class="form">
+                    <form action="enDeveloppement.html">
+                        <label for="nom">Nom</label>
+                            <input type="text" id="nom" placeholder="Ton nom de Fouleck !">
+                        <label for="mail">E-mail</label>
+                            <input type="email" id="mail" placeholder="Ton email mon ami !">
+                    </form>
+                </div>
+                <div class="form">
+                    <form action="enDeveloppement.html">
+                        <label for="adresse">Adresse</label>
+                            <input type="text" id="adresse" placeholder="Où veux-tu recevoir tes pizzas ?">
+                        <label for="cp">Code Postal</label>
+                            <input type="text" id="cp" placeholder="C'est ta ville mon Fouleck !">
+                    </form>
+                </div>
+                <div class="form">
+                    <form action="enDeveloppement.html">
+                        <div id="paiement">
+                            <label for="CB" class="paiement">Carte Bancaire</label>
+                                <input type="radio" id="CB" name="paiement" class="paiement">
+                            <label for="espece" class="paiement">Espece</label>
+                                <input type="radio" id="espece" name="paiement" class="paiement">
+                        </div>
+                        <label for="num">Numero de carte</label>
+                            <input type="text" id="num" placeholder="Eheh, vas-y t'inquiète c'est secure !">
+                        <label for="code">Code</label>
+                            <input type="text" id="code" placeholder="TMTC les 3 chiffres derrière mon Fouleck !">
+                    </form>
+                </div>
+                <form action="enDeveloppement.html"><input type="submit" class="button" value="Let's go !"></form>
+            </section>
+            <section id="client">
+                <h3 class="texte">Tu es un client de <strong>Fouleck</strong></h3>
+                <div class="form">
+                    <form action="enDeveloppement.html">
+                        <label for="pseudo">Pseudo</label>
+                            <input type="text" id="pseudo" placeholder="Ton pseudo de Fouleck !">
+                        <label for="mdp">Mot de Passe</label>
+                            <input type="password" id="mdp" placeholder="Ton mot de passe super secret !">
+                    </form>
+                </div>
+                <form action="enDeveloppement.html"><input type="submit" class="button" value="Let's go !"></form>
+            </section>
+        </div>
+        <footer>
+            <ul>
+                <li><a href="https://www.facebook.com/Foolek-pizz-Villeurbanne-955051914505697/"><img src="assets/img/logo_facebook.png" alt="facebook" width=40></a></li>
+                <li>-</li>
+                <li><a href="about.html">A propos</a></li>
+                <li>-</li>
+                <li><a href="https://twitter.com/foolekpizz?lang=fr"><img src="assets/img/logo_twitter.jpg" alt="twitter" width=40></a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

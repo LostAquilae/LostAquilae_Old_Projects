@@ -1,0 +1,238 @@
+#corps {
+    text-align: center;
+}
+
+#corps .pizza {
+    display: inline-block;
+    margin: 20px 15px;
+    border-radius: 20px;
+    background-color: rgba(255, 100, 100, 0.7);
+}
+
+#corps .pizza a {
+    font-style: normal;
+    display: inline-block;
+}
+
+#corps .pizza h2 {
+    margin: 0;
+    color: red;
+    margin-top: 10px;
+    font-size: 3.5vw;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+#corps .pizza img {
+    width: 45vw;
+}
+
+#corps .pizza h3 {
+    margin: 0;
+    color: red;
+    font-size: 2.5vw;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#corps .pizza .strike {
+    text-decoration: line-through;
+    text-shadow: none;
+    color: black;
+    font-size: 1.5vw;
+    position: relative;
+    bottom: 0.5vw;
+}
+
+#corps .pizza .ingredients {
+    position: absolute;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5%;
+    box-shadow: 0px 0px 20px #AB0F00;
+    color: red;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    transform: scale(0);
+    transition: 0.5s;
+    font-size: 2.3vw;
+    padding-left: 3vw;
+    padding-right: 1vw;
+    margin-top: 2vw;
+    margin-left: 15vw;
+    padding: 10px 30px 10px 50px;
+}
+
+#corps .pizza .ingredients ul {
+    margin: 0;
+    padding: 0;
+}
+
+#corps .pizza:hover .ingredients {
+    transform: scale(1);
+}
+
+#corps .pizza .ingredients li:first-line {
+    color: white;
+}
+
+#corps .pizza .ingredients li strong {
+    color: red;
+    font-size: 200%;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+@media screen and (max-width: 1115px) {
+    #corps .pizza h2 {
+        font-size: 2vw;
+        text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    }
+
+    #corps .pizza img {
+        width: 28vw;
+    }
+
+    #corps .pizza #ingredients1 {
+        font-size: 1.4vw;
+        padding-left: 2vw;
+        margin-top: 1.5vw;
+        margin-left: 2.2vw;
+    }
+
+    #corps .pizza #ingredients2 {
+        font-size: 1.5vw;
+        padding-left: 2vw;
+        margin-top: 0.8vw;
+        margin-left: 2.3vw;
+    }
+
+    #corps .pizza #ingredients3 {
+        font-size: 1.4vw;
+        padding-left: 2vw;
+        margin-top: 2.2vw;
+        margin-left: 1.8vw;
+    }
+
+    #corps .pizza #ingredients4 {
+        font-size: 1.1vw;
+        padding-left: 1.5vw;
+        margin-top: 2.2vw;
+        margin-left: 1.2vw;
+    }
+
+    #corps .pizza #ingredients5 {
+        font-size: 1.4vw;
+        padding-left: 1.8vw;
+        margin-top: 1.5vw;
+        margin-left: 1.5vw;
+    }
+
+    #corps .pizza #ingredients6 {
+        font-size: 1.6vw;
+        padding-left: 1.8vw;
+        margin-top: 0.7vw;
+        margin-left: 3.5vw;
+    }
+
+    #corps .pizza #ingredients7 {
+        font-size: 1.4vw;
+        padding-left: 1.8vw;
+        margin-top: 0.2vw;
+        margin-left: 2.5vw;
+    }
+
+    #corps .pizza #ingredients8 {
+        font-size: 1.5vw;
+        padding-left: 1.8vw;
+        margin-top: 0.4vw;
+        margin-left: 0.8vw;
+    }
+}
+
+@media screen and (max-width: 913px) {
+    #corps .pizza h2 {
+        font-size: 3vw;
+        text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    }
+
+    #corps .pizza img {
+        width: 40vw;
+    }
+
+    #corps .pizza #ingredients1 {
+        font-size: 2.2vw;
+        padding-left: 2.5vw;
+        margin-top: 1.5vw;
+        margin-left: 1.5vw;
+    }
+
+    #corps .pizza #ingredients2 {
+        font-size: 2.3vw;
+        padding-left: 3vw;
+        margin-top: 0.8vw;
+        margin-left: 2.5vw;
+    }
+
+    #corps .pizza #ingredients3 {
+        font-size: 2.1vw;
+        padding-left: 2.5vw;
+        margin-top: 2.5vw;
+        margin-left: 2vw;
+    }
+
+    #corps .pizza #ingredients4 {
+        font-size: 1.6vw;
+        padding-left: 2vw;
+        margin-top: 2.5vw;
+        margin-left: 2vw;
+    }
+
+    #corps .pizza #ingredients5 {
+        font-size: 2.1vw;
+        padding-left: 2.5vw;
+        margin-top: 2.5vw;
+        margin-left: 1.6vw;
+    }
+
+    #corps .pizza #ingredients6 {
+        font-size: 2.2vw;
+        padding-left: 2.5vw;
+        margin-top: 1.2vw;
+        margin-left: 6vw;
+    }
+
+    #corps .pizza #ingredients7 {
+        font-size: 1.9vw;
+        padding-left: 2.2vw;
+        margin-top: 0.8vw;
+        margin-left: 5vw;
+    }
+
+    #corps .pizza #ingredients8 {
+        font-size: 2.1vw;
+        padding-left: 2.5vw;
+        margin-top: 0.6vw;
+        margin-left: 1.7vw;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    #corps .pizza {
+        display: block;
+        margin: 15px 0;
+    }
+
+    #corps .pizza h2 {
+        font-size: 7vw;
+        position: relative;
+        top: 7px;
+        text-shadow: -0.5vw 0 black, 0 0.5vw black, 0.5vw 0 black, 0 -0.5vw black;
+    }
+
+    #corps .pizza img {
+        width: 70vw;
+    }
+
+    #corps .pizza .ingredients {
+        display: none;
+    }
+}

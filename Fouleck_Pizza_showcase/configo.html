@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Fouleck Pizza</title>
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/configoStyle.css">
+        <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="assets/img/logoHead.png">
+    </head>
+    <body>
+        <header>
+            <section id="top">
+                <a id="titre" href="index.html"><img src="assets/img/logo.png" alt="Logo" width=100><h1>Fouleck Pizza &</h1></a>
+                <form id="search" action="pizzas.html">
+                    <input type="text" placeholder="Quelle pizza mon fouleck ?" />
+                    <a href="pizzas.html"><i class="fa fa-search" aria-hidden="true"></i></a>
+                </form>
+                <aside id="user">
+                    <form action="enDeveloppement.html">
+                        <label for="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></label>
+                            <input class="text" id="email" type="email" placeholder="E-mail">
+                        <label for="password"><i class="fa fa-unlock-alt" aria-hidden="true"></i></label>
+                            <input class="text" id="password" type="password" placeholder="Mot de Passe">
+                        <a href="enDeveloppement.html" class="button">Connexion</a>
+                    </form>
+                    <a href="enDeveloppement.html" id="connect"><i class="fa fa-user-circle-o fa-5x" aria-hidden="true"></i></a>
+                    <a href="panier.html"><span>3</span><i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i></a>
+                </aside>
+            </section>
+            <nav>
+                <ul>
+                    <li class="text">|</li>
+                    <li class="text"><a href="pizzas.html">Pizzas</a></li>
+                    <li class="icon"><a href="pizzas.html"><img src="assets/img/pizzas.ico" alt="Pizzas" width=40 /></a></li>
+                    <li class="text">|</li>
+                    <li class="text"><a href="configo.html">ConfigoFouleck</a></li>
+                    <li class="icon"><a href="configo.html"><img src="assets/img/configoFouleck.png" alt="ConfigoFouleck" width=40 /></a></li>
+                    <li class="text">|</li>
+                    <li class="text"><a href="pizzas.html">Sandwichs</a></li>
+                    <li class="icon"><a href="pizzas.html"><img src="assets/img/sandwichs.png" alt="Sandwichs" width=40 /></a></li>
+                    <li class="text">|</li>
+                    <li class="text"><a href="pizzas.html">Boissons</a></li>
+                    <li class="icon"><a href="pizzas.html"><img src="assets/img/boissons.png" alt="Boissons" width=40 /></a></li>
+                    <li class="text">|</li>
+                </ul>
+            </nav>
+        </header>
+        <div id="corps">
+            <article class="texte" id="head">
+                <h2>Bienvenue dans le <strong>ConfigoFouleck !</strong></h2>
+                <p>Parce que l'on est jamais mieux servis que par soi-même, c'est ici que tu peux venir créer ta propre pizza de <strong>Fouleck</strong> afin de faire ressortir ta <strong>Fouleckitude</strong> comme jamais !</p>
+                <p>Épatez-nous avec vos plus belles configs de pizza, et les meilleurs pourront même figurer dans la carte à l'avenir !</p>
+                <p class="grand"><strong>À vos clavier !</strong></p>
+            </article>
+            <article class="texte ingredients">
+                <h3>Quelle base veux-tu petit <strong>Fouleck ?</strong></h3>
+                <form action="enDeveloppement.html">
+                    <ul>
+                        <li><label for="b_tomate"><img src="assets/img/base_tomate.jpg" alt="base tomate"><span>Base tomate</span></label><input name="base" type="radio" id="b_tomate"></li>
+                        <li><label for="b_crème"><img src="assets/img/crème.jpg" alt="base crème"><span>Base crème</span></label><input name="base" type="radio" id="b_crème"></li>
+                    </ul>
+                </form>
+            </article>
+            <article class="texte ingredients">
+                <h3>Quelle viande mon <strong>Fouleck ?</strong></h3>
+                <form action="enDeveloppement.html">
+                    <ul>
+                        <li><label for="merguez"><img src="assets/img/merguez.jpg" alt="viande merguez"><span>Merguez</span></label><input name="viande" type="radio" id="merguez"></li>
+                        <li><label for="bolognaise"><img src="assets/img/bolognaise.jpg" alt="viande bolognaise"><span>Bolognaise</span></label><input name="viande" type="radio" id="bolognaise"></li>
+                        <li><label for="escalope"><img src="assets/img/escalope.jpeg" alt="viande d'escalope"><span>Escalope</span></label><input name="viande" type="radio" id="escalope"></li>
+                        <li><label for="chorizo"><img src="assets/img/chorizo.jpg" alt="viande chorizo"><span>Chorizo</span></label><input name="viande" type="radio" id="chorizo"></li>
+                        <li><label for="kebab"><img src="assets/img/kebab.jpg" alt="viande de kebab"><span>Kebab</span></label><input name="viande" type="radio" id="kebab"></li>
+                    </ul>
+                </form>
+            </article>
+            <article class="texte ingredients">
+                <h3>Quel fromage de <strong>Fouleck</strong> choisis-tu ?</h3>
+                <form action="enDeveloppement.html">
+                    <ul>
+                        <li><label for="cheddar"><img src="assets/img/cheddar.jpg" alt="fromage cheddar"><span>Cheddar</span></label><input name="fromage" type="radio" id="cheddar"></li>
+                        <li><label for="chèvre"><img src="assets/img/chèvre.jpg" alt="fromage chèvre"><span>Chèvre</span></label><input name="fromage" type="radio" id="chèvre"></li>
+                        <li><label for="raclette"><img src="assets/img/raclette.jpg" alt="fromage raclette"><span>Raclette</span></label><input name="fromage" type="radio" id="raclette"></li>
+                        <li><label for="parmesan"><img src="assets/img/parmesans.jpg" alt="fromage parmesans"><span>Parmesan</span></label><input name="fromage" type="radio" id="parmesan"></li>
+                    </ul>
+                </form>
+            </article>
+            <article class="texte ingredients">
+                <h3>Un petit légume pour garder sa <strong>Fouleckitude</strong>, que choisis-tu ?</h3>
+                <form action="enDeveloppement.html">
+                    <ul>
+                        <li><label for="poivrons"><img src="assets/img/poivrons.jpeg" alt="légume poivrons"><span>Poivrons</span></label><input name="légume" type="radio" id="poivrons"></li>
+                        <li><label for="tomates"><img src="assets/img/tomate.jpg" alt="légume tomate"><span>Tomates</span></label><input name="légume" type="radio" id="tomates"></li>
+                        <li><label for="oignons"><img src="assets/img/oignons.jpg" alt="légume oignons"><span>Oignions</span></label><input name="légume" type="radio" id="oignons"></li>
+                    </ul>
+                </form>
+            </article>
+            <article class="texte" id="nom">
+                <h3>Donne un nom de <strong>Fouleck</strong> à ta pizza !</h3>
+                <form action="panier.html">
+                    <input type="text" placeholder="Le nom de ta pizza mon Fouleck">
+                    <button>Ajouter au panier</button>
+                </form>
+            </article>
+        </div>
+        <footer>
+            <ul>
+                <li><a href="https://www.facebook.com/Foolek-pizz-Villeurbanne-955051914505697/"><img src="assets/img/logo_facebook.png" alt="facebook" width=40></a></li>
+                <li>-</li>
+                <li><a href="about.html">A propos</a></li>
+                <li>-</li>
+                <li><a href="https://twitter.com/foolekpizz?lang=fr"><img src="assets/img/logo_twitter.jpg" alt="twitter" width=40></a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

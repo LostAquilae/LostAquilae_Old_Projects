@@ -1,0 +1,64 @@
+#corps .texte {
+    width: 600px;
+}
+
+#corps article a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#corps aside {
+    text-align: center;
+    float: right;
+    margin: 15px 150px 10px 0px;
+}
+
+#corps aside ul {
+    padding: 0;
+    margin: 0;
+}
+
+#corps aside li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#corps aside img {
+    display: block;
+    border-radius: 20px;
+}
+
+#corps aside a {
+    text-decoration: none;
+    color: #e26f00;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media screen and (max-width: 1320px) {
+    #corps .texte {
+        width: auto;
+    }
+
+    #corps aside {
+        display: block;
+        float: none;
+        text-align: center;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 565px)
+{
+    #corps aside {
+        font-size: 4vw;
+    }
+
+    #corps aside img {
+        width: 40vw;
+    }
+
+    #corps aside #max {
+        margin-right: 5vw;
+    }
+}
